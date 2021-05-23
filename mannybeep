@@ -52,8 +52,7 @@ body{
         greet = 'Good Evening manny ';
 
     document.getElementById('lbl').innerHTML =
-        greet+=`<div id="date"> It's ${date}</div>`;
+        greet+= "manny " +`<div id="date"> It's ${date}</div>`;
 </script> 
 </html>
-
 
